@@ -11,6 +11,7 @@ class CicdJenkinsDemoApplicationTests {
 	@Autowired
 	private SmsController controller;
 
+	//test case
 	@Test
 	void contextLoads() {
 		Assertions.assertNotNull(controller);
